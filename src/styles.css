@@ -1,0 +1,262 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    background-color: white;
+}
+
+.hero {
+    background-color: #aec6cf;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+footer {
+    background-color: #aec6cf;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+
+li {
+    text-decoration: none;
+
+}
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.subtitle {
+    font-size: 50px;
+}
+
+p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #788fa8;
+    text-align: center;
+    font-size: 30ox;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #b0b5cf;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 80px;
+    margin: 30px;
+    color: white;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center; 
+}
+
+.project-card {
+    width: 200px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(196, 193, 193);
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 100px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+    ul {
+        display: none;
+        background-color: #788fa8;
+        margin: 0px;
+    }
+
+    ul.show {
+        display: block;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #788fa8;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+.form-submit {
+
+    width: 50%;
+}
+
+.form-submit form {
+    width: 100%;
+}
+
+.form-submit .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-control {
+    width: 50%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    padding: 20px 0;
+}
+
+.form-row .form-control:focus,
+.form-submit textarea:focus {
+    outline: 0;
+    background-color: yellow;
+}
+
+.form-submit textarea {
+    width: 100%;
+    border: none;
+    padding: 0;
+    resize: none;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+form button {
+    width: 100%;
+    background-color: #51bd51;
+    color: rgb(255,255,255);
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-submit {
+        width: 80%;
+    }
+    .form-submit .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-row .form-control {
+        width: 100%;
+        margin-top: 5px;
+    }
+}

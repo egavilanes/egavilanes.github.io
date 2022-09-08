@@ -139,9 +139,10 @@ p{
 }
 
 .project-card {
-    width: 200px;
+    width: 300px;
     height: 500px;
-    box-shadow: 5px 5px 20px rgb(196, 193, 193);
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
 }
 
 .project-container {
